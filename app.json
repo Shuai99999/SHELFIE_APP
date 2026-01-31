@@ -1,11 +1,13 @@
 {
   "expo": {
-    "name": "RN-First-App",
-    "slug": "RN-First-App",
+    "scheme": "shelfieapp",
+    "name": "SHELFIE_APP",
+    "slug": "SHELFIE_APP",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    // "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -24,6 +26,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
